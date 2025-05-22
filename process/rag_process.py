@@ -1,4 +1,4 @@
-from langchain_chroma import Chroma
+from langchain.vectorstores import FAISS
 from process.prompt_process import prompt
 from langchain.chains import create_retrieval_chain
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
@@ -27,7 +27,7 @@ class RagWiki():
         text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
         docs = text_splitter.split_documents(documents)
 
-        vectorstore = Chroma.from_documents(docs, self.embedding_models())
+        vectorstore = FAISS.from_documents(docs, self.embedding_models())
         self.retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 5})
 
     def get_answer(self, question):
