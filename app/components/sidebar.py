@@ -30,7 +30,7 @@ def sidebar_block():
 
     st.html("<br><h3>Settings ⚙️<h3><hr>")
     chunk_size = st.slider("Chunk Size", 250, 3000, 1000, 250, key="chunk_size")
-    chunk_overlap = st.slider("Chunk Size", 0, 500, 200, 100, key="chunk_overlap")
+    chunk_overlap = st.slider("Chunk Overlap", 0, 500, 200, 100, key="chunk_overlap")
 
     model_info = {"model_type": model_type, "model_name": model_name, "api_key": api_key}
     chunk_info = {"chunk_size": chunk_size, "chunk_overlap": chunk_overlap}
