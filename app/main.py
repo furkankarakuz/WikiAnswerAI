@@ -36,7 +36,7 @@ if subject_button or (st.session_state["response"] and st.session_state["ask_but
         st.subheader("Question :question:")
 
         question_text = st.text_area("Write Your Question", key="question_text", value=st.session_state["question_text"])
-        ask_button = st.button("Ask Button", key="ask_button", on_click=ask_question, args=(documents, model_info, chunk_info))
+        ask_button = st.button("Ask", key="ask_button", on_click=ask_question, args=(documents, model_info, chunk_info))
 
 
 if st.session_state["ask_button"] and st.session_state["response"]:
