@@ -40,7 +40,7 @@ Even if the desired information exists in a Wikipedia article, it can sometimes 
 
 ---
 
-## 🔧 How to Run the Application
+## 🔧 Installation & Run
 
 ```bash
 git clone https://github.com/furkankarakuz/WikiAnswerAI.git
