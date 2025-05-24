@@ -3,11 +3,17 @@
 **WikiAnswerAI** is an AI-powered question-answering application designed to make Wikipedia searches more effective.
 Users can enter a specific topic title and filter relevant pages. Based on the retrieved content, the user can ask a question, and the system generates a clear answer derived from Wikipedia, along with references to the source content.
 
+---
+## 📸 Screenshots
+
+* #### Search & Filter
 ![WikiAnswerAI](https://github.com/user-attachments/assets/46b2fcd8-ef14-411a-90a1-752694bc83ee)
+
+* #### Question
 ![WikiAnswerAI](https://github.com/user-attachments/assets/969bffb5-0307-4427-9a35-6a4d96c08a58)
+
+* #### Answer & Sources
 ![WikiAnswerAI](https://github.com/user-attachments/assets/d5a575f4-d760-414f-9f96-a2e9f53bd0d5)
-
-
 
 ---
 
