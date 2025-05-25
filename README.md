@@ -1,4 +1,4 @@
-# WikiAnswerAI
+# WikiAnswerAI 📚🔍🤖
 
 **WikiAnswerAI** is an AI-powered question-answering application designed to make Wikipedia searches more effective.
 Users can enter a specific topic title and filter relevant pages. Based on the retrieved content, the user can ask a question, and the system generates a clear answer derived from Wikipedia, along with references to the source content.
